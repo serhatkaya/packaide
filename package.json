@@ -1,0 +1,51 @@
+{
+  "name": "packaide",
+  "version": "1.0.3",
+  "description": "packaide is a helper library that packages files you defined in config. You can use it to package your source or upload to the host.",
+  "main": "src/index.js",
+  "scripts": {
+    "format:fix": "pretty-quick --staged",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serhatkaya/packaide.git"
+  },
+  "type": "module",
+  "keywords": [
+    "file-copier",
+    "packager",
+    "laravel-file-copy",
+    "packaide",
+    "ftp-deploy",
+    "deploy-ftp",
+    "package-copier",
+    "packager",
+    "nodejs-packager",
+    "laravel-packager",
+    "php-packager",
+    "php-deployer",
+    "nodejs-deployer"
+  ],
+  "author": "Serhat Kaya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serhatkaya/packaide/issues"
+  },
+  "bin": {
+    "packaide": "src/index.js"
+  },
+  "homepage": "https://github.com/serhatkaya/packaide#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "pretty-quick": "^3.1.3"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "basic-ftp": "^5.0.1",
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "fs-extra": "^10.1.0",
+    "ftp-deploy": "^2.4.3"
+  }
+}
