@@ -335,6 +335,6 @@ Distributed under the MIT License. See [`LICENSE.md`](https://github.com/serhatk
 [issues-shield]: https://img.shields.io/github/issues/serhatkaya/packaide.svg?style=for-the-badge
 [issues-url]: https://github.com/serhatkaya/packaide/issues
 [license-shield]: https://img.shields.io/github/license/serhatkaya/packaide.svg?style=for-the-badge
-[license-url]: https://github.com/serhatkaya/packaide/blob/master/LICENSE.txt
+[license-url]: https://github.com/serhatkaya/packaide/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kaya-serhat
