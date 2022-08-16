@@ -19,11 +19,10 @@
   </p>
 </div>
 
-<center>
-
-[![buymeacoffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/serhatkaya)
-
-</center>
+<p align="center">
+<a href="https://www.buymeacoffee.com/serhatkaya" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png"/>
+  </a>
+</p>
 
 <!-- TABLE OF CONTENTS -->
   <h2>Table of Contents</h2>
