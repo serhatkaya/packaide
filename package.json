@@ -1,6 +1,6 @@
 {
   "name": "packaide",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "packaide is a helper library that packages files you defined in config. You can use it to package your source or upload to the host.",
   "main": "src/index.js",
   "scripts": {
