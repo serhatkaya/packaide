@@ -7,7 +7,7 @@
 
 <div align="center">
   <a href="https://github.com/serhatkaya/packaide/">
-    <img src="https://user-images.githubusercontent.com/59228830/184737120-1697877d-490b-4714-b10a-7c575b2450ca.png" alt="Logo" height="300" width="300" >
+    <img src="https://user-images.githubusercontent.com/59228830/184989231-3732cefe-9d21-4184-999c-1b9fdb925a86.png" alt="Logo" height="117" width="341" >
   </a>
 
   <h3 align="center">packaide is a <code><a href="https://www.w3schools.com/whatis/whatis_cli.asp">CLI</a></code> library that package your files defined in config. You can use it to package your source or upload to the host.</h3>
@@ -37,7 +37,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#commands">Usage & Commands</a></li>
+    <li><a href="#configuration">Configuration</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
   </ul>
@@ -156,6 +157,144 @@ _Also you can install the `CLI` as global to use it everywhere, but it's not des
 <img src="https://user-images.githubusercontent.com/59228830/184758472-3ac6aa49-c19a-4abe-bb3d-cf5fc4845e33.png" width="32" alt="back to top" height="32" />
 </a>
 </p>
+
+## Configuration
+
+<table class="tg">
+  <thead>
+    <tr >
+      <th class="tg-0pky" >Key</th>
+      <th class="tg-0pky">Type</th>
+      <th class="tg-0pky">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-0pky"  ><code>outputPath</code></td>
+      <td class="tg-0pky"><code>string</code></td>
+      <td class="tg-0pky">Destination folder for files to copy.</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"  ><code>folders</code></td>
+      <td class="tg-0pky"><code>array</code></td>
+      <td class="tg-0pky">Folders to copy.</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"  ><code>files</code></td>
+      <td class="tg-0pky"><code>array</code></td>
+      <td class="tg-0pky">Filesto copy.</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"  ><code>archiveAftercopy</code></td>
+      <td class="tg-0pky"><code>boolean</code></td>
+      <td class="tg-0pky">If setted as true an archive file will be created in your project root after copy process.</td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"  ><code>archiveName</code></td>
+      <td class="tg-0pky"><code>string</code></td>
+      <td class="tg-0pky">Archive file name.</td>
+    </tr>
+    <tr>
+      <td colspan=3> <h3 align="center">FTP Settings</h3></td>
+    </tr>
+    <tr>
+      <td><code>ftp</code></td>
+      <td><code>object</code></td>
+      <td>Ftp config.</td>
+    </tr>
+    <tr>
+      <td><code>ftp.server</code></td>
+      <td><code>string</code></td>
+      <td>FTP Server IP address.</td>
+    </tr>
+    <tr>
+      <td><code>ftp.username</code></td>
+      <td><code>string</code></td>
+      <td>FTP Username.</td>
+    </tr>
+    <tr>
+      <td><code>ftp.password</code></td>
+      <td><code>string</code></td>
+      <td>FTP Password.</td>
+    </tr>
+    <tr>
+      <td><code>ftp.port</code></td>
+      <td><code>number</code></td>
+      <td>FTP Password.</td>
+    </tr>
+    <tr>
+      <td><code>ftp.sftp</code></td>
+      <td><code>boolean</code></td>
+      <td>SFTP mode on/off.</td>
+    </tr>
+    <tr>
+      <td><code>ftp.deleteRemote</code></td>
+      <td><code>boolean</code></td>
+      <td>If setted as true packaide will delete remote files on the server.</td>
+    </tr>
+    <tr>
+      <td><code>ftp.include</code></td>
+      <td><code>array</code></td>
+      <td>Included file names or patterns for the files to upload.</td>
+    </tr>
+    <tr>
+      <td><code>ftp.excluded</code></td>
+      <td><code>array</code></td>
+      <td>Excluded file names or patterns for the files to upload.</td>
+    </tr>
+    <tr>
+      <td><code>ftp.forcePassiveMode</code></td>
+      <td><code>boolean</code></td>
+      <td>Passive mode.</td>
+    </tr>
+    <tr>
+      <td><code>ftp.remoteRoot</code></td>
+      <td><code>string</code></td>
+      <td>Remote FTP server upload path.</td>
+    </tr>
+  </tbody>
+</table>
+
+## Usage Example
+
+### Example config file `.packaide.json`
+
+```json
+{
+  "outputPath": "release",
+  "folders": [
+    "./app",
+    "./bootstrap",
+    "./config",
+    "./public",
+    "./resources/views",
+    "./resources/lang",
+    "./routes",
+    "./storage"
+  ],
+  "archiveAfterCopy": true,
+  "archiveName": "packaide-release",
+  "files": [".env", "composer.json", "composer.lock", ".production.env", "artisan"],
+  "ftp": {
+    "server": "127.0.0.7",
+    "username": "ftpacc",
+    "password": "S3CR3TP455W04RD",
+    "sftp": false,
+    "port": 21,
+    "deleteRemote": false,
+    "include": ["*", "**/*", ".env", ".production.env"],
+    "exclude": [".local.env"],
+    "forcePassiveMode": true,
+    "remoteRoot": "/home/yourwebsite.com/public_html/"
+  }
+}
+```
+
+run `packaide copy`
+
+![alt](https://user-images.githubusercontent.com/59228830/184989640-d24cb686-4b44-468b-aa89-1d6294222076.png)
+
+Have fun :)
 
 ## Contributing
 

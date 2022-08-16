@@ -10,6 +10,21 @@ import chalk from 'chalk';
 
 global.c_config = parseConfig();
 
+console.log(
+  chalk.green(` 
+                   _         _     _      
+                  | |       (_)   | |     
+  _ __   __ _  ___| | ____ _ _  __| | ___ 
+ | '_ \\ / _\` |/ __| |/ / _\` | |/ _\` |/ _ \\
+ | |_) | (_| | (__|   < (_| | | (_| |  __/
+ | .__/ \\__,_|\\___|_|\\_\\__,_|_|\\__,_|\\___|
+ | |                                      
+ |_|   
+`)
+);
+
+console.log(chalk.green.underline('https://github.com/serhatkaya/packaide\n'));
+
 program
   .command('config')
   .description('Config manager')
