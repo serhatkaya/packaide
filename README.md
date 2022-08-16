@@ -1,5 +1,3 @@
-<a name="readme-top"></a>
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -53,8 +51,8 @@ I was developing an app with Laravel and deployment was taking too much time the
 Of course you can use the library with whatever you want.
 
 <p align="right">
-    <a href="#readme-top">
-     <img src="https://user-images.githubusercontent.com/59228830/184758472-3ac6aa49-c19a-4abe-bb3d-cf5fc4845e33.png" width="32" alt="back to top" height="32"/>
+    <a href="#top">
+     <img src="https://user-images.githubusercontent.com/59228830/184758472-3ac6aa49-c19a-4abe-bb3d-cf5fc4845e33.png" width="32" height="32" />
     </a>
 </p>
 
