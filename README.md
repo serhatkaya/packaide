@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -51,7 +53,7 @@ I was developing an app with Laravel and deployment was taking too much time the
 Of course you can use the library with whatever you want.
 
 <p align="right">
-    <a href="#">
+    <a href="#readme-top">
      <img src="https://user-images.githubusercontent.com/59228830/184758472-3ac6aa49-c19a-4abe-bb3d-cf5fc4845e33.png" width="32" alt="back to top" height="32"/>
     </a>
 </p>
@@ -83,7 +85,7 @@ _Make sure you installing the package as devDependency._
 _Also you can install the `CLI` as global to use it everywhere, but it's not designed to use it that way. It could be challenging._
 
 <p align="right">
-    <a href="#">
+    <a href="#readme-top">
      <img src="https://user-images.githubusercontent.com/59228830/184758472-3ac6aa49-c19a-4abe-bb3d-cf5fc4845e33.png" width="32" alt="back to top" height="32"/>
     </a>
 </p>
@@ -152,7 +154,7 @@ _Also you can install the `CLI` as global to use it everywhere, but it's not des
 </table>
 
 <p align="right">
-    <a href="#">
+    <a href="#readme-top">
      <img src="https://user-images.githubusercontent.com/59228830/184758472-3ac6aa49-c19a-4abe-bb3d-cf5fc4845e33.png" width="32" alt="back to top" height="32"/>
     </a>
 </p>
@@ -171,7 +173,7 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">
-    <a href="#">
+    <a href="#readme-top">
      <img src="https://user-images.githubusercontent.com/59228830/184758472-3ac6aa49-c19a-4abe-bb3d-cf5fc4845e33.png" width="32" alt="back to top" height="32"/>
     </a>
 </p>
@@ -181,7 +183,7 @@ Don't forget to give the project a star! Thanks again!
 Distributed under the MIT License. See [`LICENSE.md`](https://github.com/serhatkaya/packaide/blob/master/LICENSE.md) for more information.
 
 <p align="right">
-    <a href="#">
+    <a href="#readme-top">
      <img src="https://user-images.githubusercontent.com/59228830/184758472-3ac6aa49-c19a-4abe-bb3d-cf5fc4845e33.png" width="32" alt="back to top" height="32"/>
     </a>
 </p>
