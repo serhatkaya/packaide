@@ -37,8 +37,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#commands">Usage & Commands</a></li>
+    <li><a href="#commands">Commands</a></li>
     <li><a href="#configuration">Configuration</a></li>
+    <li><a href="#usage-example">Usage Example</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
   </ul>
