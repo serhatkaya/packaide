@@ -326,15 +326,15 @@ Distributed under the MIT License. See [`LICENSE.md`](https://github.com/serhatk
 </a>
 </p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/serhatkaya/packaide.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/serhatkaya/packaide.svg?style=for-the-badge&dummy=unused
 [contributors-url]: https://github.com/serhatkaya/packaide/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/serhatkaya/packaide.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/serhatkaya/packaide.svg?style=for-the-badge&dummy=unused
 [forks-url]: https://github.com/serhatkaya/packaide/network/members
-[stars-shield]: https://img.shields.io/github/stars/serhatkaya/packaide.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/serhatkaya/packaide.svg?style=for-the-badge&dummy=unused
 [stars-url]: https://github.com/serhatkaya/packaide/stargazers
-[issues-shield]: https://img.shields.io/github/issues/serhatkaya/packaide.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/serhatkaya/packaide.svg?style=for-the-badge&?dummy=unused
 [issues-url]: https://github.com/serhatkaya/packaide/issues
-[license-shield]: https://img.shields.io/github/license/serhatkaya/packaide.svg?style=for-the-badge
-[license-url]: https://github.com/serhatkaya/packaide/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/serhatkaya/packaide.svg?style=for-the-badge&dummy=unused
+[license-url]: https://github.com/serhatkaya/packaide/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kaya-serhat
