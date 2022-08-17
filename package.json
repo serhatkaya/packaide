@@ -25,7 +25,9 @@
     "laravel-packager",
     "php-packager",
     "php-deployer",
-    "nodejs-deployer"
+    "nodejs-deploSyer",
+    "cli",
+    "packager-cli"
   ],
   "author": "Serhat Kaya",
   "license": "MIT",
